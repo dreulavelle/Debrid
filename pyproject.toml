@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "debra"
+version = "0.1.1"
+description = "A debrid python library!"
+authors = ["Spoked <dreu.lavelle@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+pytest-cov = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
