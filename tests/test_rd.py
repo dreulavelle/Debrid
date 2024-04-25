@@ -1,5 +1,5 @@
 import pytest
-from debra import Debrid
+from debrid.realdebrid import RealDebrid
 
 
 with open(".env") as f:
@@ -10,7 +10,7 @@ if not API_KEY:
 
 @pytest.fixture
 def rd():
-    return Debrid(API_KEY)
+    return RealDebrid(API_KEY)
 
 def test_valid_instantiation(rd):
     assert isinstance(rd, object)

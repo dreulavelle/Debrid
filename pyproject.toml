@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "debra"
+name = "debrid"
 version = "0.1.1"
 description = "A debrid python library!"
 authors = ["Spoked <dreu.lavelle@gmail.com>"]

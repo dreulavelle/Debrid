@@ -14,7 +14,7 @@ test:
 	@poetry run pytest -s -vv
 
 coverage:
-	@poetry run pytest -s -vv --cov=debra --cov-report term --cov-report xml
+	@poetry run pytest -s -vv --cov=debrid --cov-report term --cov-report xml
 
 publish:
 	@poetry publish --build
